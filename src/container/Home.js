@@ -429,13 +429,16 @@ export default class Home extends Component {
                         data-target="#delete"
                         onClick={() => this.idDelete(chat)}
                       >
-                        <i class="fas fa-minus-circle text-danger"></i>
+                        <i class="fas fa-trash"></i>
                       </button>
                       {/* Modal */}
                       <div className="modal fade" id="delete" tabIndex={-1}>
                         <div className="modal-dialog" role="document">
                           <div className="modal-content">
-                            <div className="modal-body">
+                            <div
+                              className="modal-body"
+                              style={{ display: "block",zIndex:"99999999" }}
+                            >
                               <p align="left">
                                 Do you want to delete this message ?
                               </p>
