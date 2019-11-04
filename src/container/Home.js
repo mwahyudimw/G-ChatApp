@@ -437,7 +437,7 @@ export default class Home extends Component {
                           <div className="modal-content">
                             <div
                               className="modal-body"
-                              style={{ display: "block",zIndex:"99999999" }}
+                              style={{ display: "block", zIndex: "99999999" }}
                             >
                               <p align="left">
                                 Do you want to delete this message ?
