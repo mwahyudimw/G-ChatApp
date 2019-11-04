@@ -61,7 +61,7 @@ export default function gabut() {
               </div>
               <div className="row footer">
                 <div className="col-md-12">
-                  <p className="mt-3" style={{ color: "rgba(0,0,0,0.7)" }}>
+                  <p className="copy mt-3" style={{ color: "rgba(0,0,0,0.7)" }}>
                     {" "}
                     © 2019 G-ChatApp
                   </p>
