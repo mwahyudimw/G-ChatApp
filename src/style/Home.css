@@ -8,7 +8,7 @@
     .list-group-item{
         max-width: 100vw;
         height: 10vh;
-        z-index: 5555;
+        z-index: 100;
         padding-bottom: 10vh;
     }
 
@@ -148,7 +148,8 @@
 /* ----------- Media Query --------- */
 
 .list-group-item{
-    z-index: 5555;
+    z-index: 100;
+    width: 30vw;
 }
 
 .inputSendMessage{
