@@ -133,6 +133,8 @@
     border-radius: 20px;
     transition: 0.5s;
     border: 1px solid #a5a5a5;
+    position: relative;
+    right: -20px;
 }
 .pagebutton:hover {
     color: black;
@@ -179,5 +181,17 @@
     }
     .page2 {
         display: none;
+    }
+    .landingCustom {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+    .copy {
+        position: relative;
+        left: -5px;
+        
     }
 }
